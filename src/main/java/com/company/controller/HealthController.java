@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HealthController {
     private static final String MESSAGE = "pong";
 
-    @RequestMapping("ping")
+    @RequestMapping("/ping")
     public String ping() {
         return MESSAGE;
     }
