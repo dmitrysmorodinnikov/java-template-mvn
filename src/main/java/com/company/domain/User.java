@@ -9,7 +9,6 @@ import java.util.List;
 @Getter
 @Setter
 public class User {
+    private int id;
     private String name;
-//    private String email;
-//    private List<Chat> chats;
 }

@@ -39,3 +39,6 @@ bin/
 out/
 target/
 *.iml
+
+application-test.properties
+application-dev.properties

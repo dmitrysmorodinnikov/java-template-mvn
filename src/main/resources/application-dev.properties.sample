@@ -1,0 +1,10 @@
+spring.datasource.url=jdbc:postgresql://localhost:5434/my_db_dev
+spring.datasource.username=postgres
+spring.datasource.password=mysecretpassword
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+server.port=8080
+
+flyway.url=jdbc:postgresql://localhost:5434/my_db_dev
+flyway.user=postgres
+flyway.password=mysecretpassword
+flyway.locations=classpath:db/migration
